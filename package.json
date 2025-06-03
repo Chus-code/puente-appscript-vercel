@@ -1,23 +1,18 @@
 {
   "name": "appinventor-bridge",
   "version": "1.0.0",
-  "description": "Puente entre App Inventor y Google Apps Script con autenticación por token",
-  "type": "module", // ¡Clave para usar import/export!
+  "description": "Puente entre App Inventor y Google Apps Script",
+  "type": "module",
   "scripts": {
-    "start": "node api/appinventor.js", // Opcional: para pruebas locales
+    "start": "node api/appinventor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "node-fetch": "^3.3.0" // Versión ESM compatible con Vercel
+    "node-fetch": "^3.3.0"
   },
   "engines": {
-    "node": ">=18.x" // Vercel usa Node.js 18+ por defecto
+    "node": ">=18.x"
   },
-  "keywords": [
-    "appinventor",
-    "google-apps-script",
-    "vercel"
-  ],
   "author": "Tu Nombre",
   "license": "MIT"
 }
