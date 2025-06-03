@@ -2,9 +2,9 @@
   "name": "puente-appscript-vercel",
   "version": "1.0.0",
   "description": "Servidor intermedio que actúa como puente hacia un Google Apps Script",
-  "main": "api/index.js",
+  "main": "API/index.js",   
   "scripts": {
-    "start": "node api/index.js"
+    "start": "node API/index.js"
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
